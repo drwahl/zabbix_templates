@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <zabbix_export>
     <version>2.0</version>
-    <date>2014-01-31T17:02:58Z</date>
+    <date>2014-04-17T14:56:02Z</date>
     <groups>
         <group>
             <name>Templates</name>
@@ -39,6 +39,9 @@
                     <name>Infoblox</name>
                 </application>
                 <application>
+                    <name>Management</name>
+                </application>
+                <application>
                     <name>Memory</name>
                 </application>
                 <application>
@@ -51,7 +54,7 @@
             <items>
                 <item>
                     <name>Available memory</name>
-                    <type>1</type>
+                    <type>4</type>
                     <snmp_community>public</snmp_community>
                     <multiplier>1</multiplier>
                     <snmp_oid>.1.3.6.1.4.1.2021.4.4.0</snmp_oid>
@@ -64,9 +67,12 @@
                     <allowed_hosts/>
                     <units>B</units>
                     <delta>0</delta>
+                    <snmpv3_contextname/>
                     <snmpv3_securityname/>
                     <snmpv3_securitylevel>0</snmpv3_securitylevel>
+                    <snmpv3_authprotocol>0</snmpv3_authprotocol>
                     <snmpv3_authpassphrase/>
+                    <snmpv3_privprotocol>0</snmpv3_privprotocol>
                     <snmpv3_privpassphrase/>
                     <formula>1024</formula>
                     <delay_flex/>
@@ -90,7 +96,7 @@
                 </item>
                 <item>
                     <name>Available swap</name>
-                    <type>1</type>
+                    <type>4</type>
                     <snmp_community>public</snmp_community>
                     <multiplier>1</multiplier>
                     <snmp_oid>.1.3.6.1.4.1.2021.4.4.0</snmp_oid>
@@ -103,9 +109,12 @@
                     <allowed_hosts/>
                     <units>B</units>
                     <delta>0</delta>
+                    <snmpv3_contextname/>
                     <snmpv3_securityname/>
                     <snmpv3_securitylevel>0</snmpv3_securitylevel>
+                    <snmpv3_authprotocol>0</snmpv3_authprotocol>
                     <snmpv3_authpassphrase/>
+                    <snmpv3_privprotocol>0</snmpv3_privprotocol>
                     <snmpv3_privpassphrase/>
                     <formula>1024</formula>
                     <delay_flex/>
@@ -129,7 +138,7 @@
                 </item>
                 <item>
                     <name>bloxTools-move Service (Global)</name>
-                    <type>1</type>
+                    <type>4</type>
                     <snmp_community>public</snmp_community>
                     <multiplier>0</multiplier>
                     <snmp_oid>.1.3.6.1.4.1.7779.3.1.1.2.1.9.1.2.7</snmp_oid>
@@ -142,9 +151,12 @@
                     <allowed_hosts/>
                     <units/>
                     <delta>0</delta>
+                    <snmpv3_contextname/>
                     <snmpv3_securityname/>
                     <snmpv3_securitylevel>0</snmpv3_securitylevel>
+                    <snmpv3_authprotocol>0</snmpv3_authprotocol>
                     <snmpv3_authpassphrase/>
+                    <snmpv3_privprotocol>0</snmpv3_privprotocol>
                     <snmpv3_privpassphrase/>
                     <formula>1</formula>
                     <delay_flex/>
@@ -175,7 +187,7 @@
                 </item>
                 <item>
                     <name>bloxTools Service (Global)</name>
-                    <type>1</type>
+                    <type>4</type>
                     <snmp_community>public</snmp_community>
                     <multiplier>0</multiplier>
                     <snmp_oid>.1.3.6.1.4.1.7779.3.1.1.2.1.9.1.2.8</snmp_oid>
@@ -188,9 +200,12 @@
                     <allowed_hosts/>
                     <units/>
                     <delta>0</delta>
+                    <snmpv3_contextname/>
                     <snmpv3_securityname/>
                     <snmpv3_securitylevel>0</snmpv3_securitylevel>
+                    <snmpv3_authprotocol>0</snmpv3_authprotocol>
                     <snmpv3_authpassphrase/>
+                    <snmpv3_privprotocol>0</snmpv3_privprotocol>
                     <snmpv3_privpassphrase/>
                     <formula>1</formula>
                     <delay_flex/>
@@ -221,7 +236,7 @@
                 </item>
                 <item>
                     <name>Buffered memory</name>
-                    <type>1</type>
+                    <type>4</type>
                     <snmp_community>public</snmp_community>
                     <multiplier>1</multiplier>
                     <snmp_oid>.1.3.6.1.4.1.2021.4.14.0</snmp_oid>
@@ -234,9 +249,12 @@
                     <allowed_hosts/>
                     <units>B</units>
                     <delta>0</delta>
+                    <snmpv3_contextname/>
                     <snmpv3_securityname/>
                     <snmpv3_securitylevel>0</snmpv3_securitylevel>
+                    <snmpv3_authprotocol>0</snmpv3_authprotocol>
                     <snmpv3_authpassphrase/>
+                    <snmpv3_privprotocol>0</snmpv3_privprotocol>
                     <snmpv3_privpassphrase/>
                     <formula>1024</formula>
                     <delay_flex/>
@@ -260,7 +278,7 @@
                 </item>
                 <item>
                     <name>Cached memory</name>
-                    <type>1</type>
+                    <type>4</type>
                     <snmp_community>public</snmp_community>
                     <multiplier>1</multiplier>
                     <snmp_oid>.1.3.6.1.4.1.2021.4.15.0</snmp_oid>
@@ -273,9 +291,12 @@
                     <allowed_hosts/>
                     <units>B</units>
                     <delta>0</delta>
+                    <snmpv3_contextname/>
                     <snmpv3_securityname/>
                     <snmpv3_securitylevel>0</snmpv3_securitylevel>
+                    <snmpv3_authprotocol>0</snmpv3_authprotocol>
                     <snmpv3_authpassphrase/>
+                    <snmpv3_privprotocol>0</snmpv3_privprotocol>
                     <snmpv3_privpassphrase/>
                     <formula>1024</formula>
                     <delay_flex/>
@@ -299,7 +320,7 @@
                 </item>
                 <item>
                     <name>CPU idle %</name>
-                    <type>1</type>
+                    <type>4</type>
                     <snmp_community>public</snmp_community>
                     <multiplier>0</multiplier>
                     <snmp_oid>.1.3.6.1.4.1.2021.11.11.0</snmp_oid>
@@ -312,9 +333,12 @@
                     <allowed_hosts/>
                     <units>%</units>
                     <delta>0</delta>
+                    <snmpv3_contextname/>
                     <snmpv3_securityname/>
                     <snmpv3_securitylevel>0</snmpv3_securitylevel>
+                    <snmpv3_authprotocol>0</snmpv3_authprotocol>
                     <snmpv3_authpassphrase/>
+                    <snmpv3_privprotocol>0</snmpv3_privprotocol>
                     <snmpv3_privpassphrase/>
                     <formula>1</formula>
                     <delay_flex/>
@@ -338,7 +362,7 @@
                 </item>
                 <item>
                     <name>CPU idle time (raw)</name>
-                    <type>1</type>
+                    <type>4</type>
                     <snmp_community>public</snmp_community>
                     <multiplier>0</multiplier>
                     <snmp_oid>.1.3.6.1.4.1.2021.11.53.0</snmp_oid>
@@ -351,9 +375,12 @@
                     <allowed_hosts/>
                     <units/>
                     <delta>2</delta>
+                    <snmpv3_contextname/>
                     <snmpv3_securityname/>
                     <snmpv3_securitylevel>0</snmpv3_securitylevel>
+                    <snmpv3_authprotocol>0</snmpv3_authprotocol>
                     <snmpv3_authpassphrase/>
+                    <snmpv3_privprotocol>0</snmpv3_privprotocol>
                     <snmpv3_privpassphrase/>
                     <formula>1</formula>
                     <delay_flex/>
@@ -377,7 +404,7 @@
                 </item>
                 <item>
                     <name>CPU interrupt time (raw)</name>
-                    <type>1</type>
+                    <type>4</type>
                     <snmp_community>public</snmp_community>
                     <multiplier>0</multiplier>
                     <snmp_oid>.1.3.6.1.4.1.2021.11.56.0</snmp_oid>
@@ -390,9 +417,12 @@
                     <allowed_hosts/>
                     <units/>
                     <delta>2</delta>
+                    <snmpv3_contextname/>
                     <snmpv3_securityname/>
                     <snmpv3_securitylevel>0</snmpv3_securitylevel>
+                    <snmpv3_authprotocol>0</snmpv3_authprotocol>
                     <snmpv3_authpassphrase/>
+                    <snmpv3_privprotocol>0</snmpv3_privprotocol>
                     <snmpv3_privpassphrase/>
                     <formula>1</formula>
                     <delay_flex/>
@@ -416,7 +446,7 @@
                 </item>
                 <item>
                     <name>CPU kernel time (raw)</name>
-                    <type>1</type>
+                    <type>4</type>
                     <snmp_community>public</snmp_community>
                     <multiplier>0</multiplier>
                     <snmp_oid>.1.3.6.1.4.1.2021.11.55.0</snmp_oid>
@@ -429,9 +459,12 @@
                     <allowed_hosts/>
                     <units/>
                     <delta>2</delta>
+                    <snmpv3_contextname/>
                     <snmpv3_securityname/>
                     <snmpv3_securitylevel>0</snmpv3_securitylevel>
+                    <snmpv3_authprotocol>0</snmpv3_authprotocol>
                     <snmpv3_authpassphrase/>
+                    <snmpv3_privprotocol>0</snmpv3_privprotocol>
                     <snmpv3_privpassphrase/>
                     <formula>1</formula>
                     <delay_flex/>
@@ -455,7 +488,7 @@
                 </item>
                 <item>
                     <name>CPU load avg (1 minute)</name>
-                    <type>1</type>
+                    <type>4</type>
                     <snmp_community>public</snmp_community>
                     <multiplier>0</multiplier>
                     <snmp_oid>.1.3.6.1.4.1.2021.10.1.3.1</snmp_oid>
@@ -468,9 +501,12 @@
                     <allowed_hosts/>
                     <units/>
                     <delta>0</delta>
+                    <snmpv3_contextname/>
                     <snmpv3_securityname/>
                     <snmpv3_securitylevel>0</snmpv3_securitylevel>
+                    <snmpv3_authprotocol>0</snmpv3_authprotocol>
                     <snmpv3_authpassphrase/>
+                    <snmpv3_privprotocol>0</snmpv3_privprotocol>
                     <snmpv3_privpassphrase/>
                     <formula>1</formula>
                     <delay_flex/>
@@ -494,7 +530,7 @@
                 </item>
                 <item>
                     <name>CPU load avg (5 minute)</name>
-                    <type>1</type>
+                    <type>4</type>
                     <snmp_community>public</snmp_community>
                     <multiplier>0</multiplier>
                     <snmp_oid>.1.3.6.1.4.1.2021.10.1.3.2</snmp_oid>
@@ -507,9 +543,12 @@
                     <allowed_hosts/>
                     <units/>
                     <delta>0</delta>
+                    <snmpv3_contextname/>
                     <snmpv3_securityname/>
                     <snmpv3_securitylevel>0</snmpv3_securitylevel>
+                    <snmpv3_authprotocol>0</snmpv3_authprotocol>
                     <snmpv3_authpassphrase/>
+                    <snmpv3_privprotocol>0</snmpv3_privprotocol>
                     <snmpv3_privpassphrase/>
                     <formula>1</formula>
                     <delay_flex/>
@@ -533,7 +572,7 @@
                 </item>
                 <item>
                     <name>CPU load avg (15 minute)</name>
-                    <type>1</type>
+                    <type>4</type>
                     <snmp_community>public</snmp_community>
                     <multiplier>0</multiplier>
                     <snmp_oid>.1.3.6.1.4.1.2021.10.1.3.3</snmp_oid>
@@ -546,9 +585,12 @@
                     <allowed_hosts/>
                     <units/>
                     <delta>0</delta>
+                    <snmpv3_contextname/>
                     <snmpv3_securityname/>
                     <snmpv3_securitylevel>0</snmpv3_securitylevel>
+                    <snmpv3_authprotocol>0</snmpv3_authprotocol>
                     <snmpv3_authpassphrase/>
+                    <snmpv3_privprotocol>0</snmpv3_privprotocol>
                     <snmpv3_privpassphrase/>
                     <formula>1</formula>
                     <delay_flex/>
@@ -572,7 +614,7 @@
                 </item>
                 <item>
                     <name>CPU nice time (raw)</name>
-                    <type>1</type>
+                    <type>4</type>
                     <snmp_community>public</snmp_community>
                     <multiplier>0</multiplier>
                     <snmp_oid>.1.3.6.1.4.1.2021.11.51.0</snmp_oid>
@@ -585,9 +627,12 @@
                     <allowed_hosts/>
                     <units/>
                     <delta>2</delta>
+                    <snmpv3_contextname/>
                     <snmpv3_securityname/>
                     <snmpv3_securitylevel>0</snmpv3_securitylevel>
+                    <snmpv3_authprotocol>0</snmpv3_authprotocol>
                     <snmpv3_authpassphrase/>
+                    <snmpv3_privprotocol>0</snmpv3_privprotocol>
                     <snmpv3_privpassphrase/>
                     <formula>1</formula>
                     <delay_flex/>
@@ -611,7 +656,7 @@
                 </item>
                 <item>
                     <name>CPU system %</name>
-                    <type>1</type>
+                    <type>4</type>
                     <snmp_community>public</snmp_community>
                     <multiplier>0</multiplier>
                     <snmp_oid>.1.3.6.1.4.1.2021.11.10.0</snmp_oid>
@@ -624,9 +669,12 @@
                     <allowed_hosts/>
                     <units>%</units>
                     <delta>0</delta>
+                    <snmpv3_contextname/>
                     <snmpv3_securityname/>
                     <snmpv3_securitylevel>0</snmpv3_securitylevel>
+                    <snmpv3_authprotocol>0</snmpv3_authprotocol>
                     <snmpv3_authpassphrase/>
+                    <snmpv3_privprotocol>0</snmpv3_privprotocol>
                     <snmpv3_privpassphrase/>
                     <formula>1</formula>
                     <delay_flex/>
@@ -650,7 +698,7 @@
                 </item>
                 <item>
                     <name>CPU system time (raw)</name>
-                    <type>1</type>
+                    <type>4</type>
                     <snmp_community>public</snmp_community>
                     <multiplier>0</multiplier>
                     <snmp_oid>.1.3.6.1.4.1.2021.11.52.0</snmp_oid>
@@ -663,9 +711,12 @@
                     <allowed_hosts/>
                     <units/>
                     <delta>2</delta>
+                    <snmpv3_contextname/>
                     <snmpv3_securityname/>
                     <snmpv3_securitylevel>0</snmpv3_securitylevel>
+                    <snmpv3_authprotocol>0</snmpv3_authprotocol>
                     <snmpv3_authpassphrase/>
+                    <snmpv3_privprotocol>0</snmpv3_privprotocol>
                     <snmpv3_privpassphrase/>
                     <formula>1</formula>
                     <delay_flex/>
@@ -689,7 +740,7 @@
                 </item>
                 <item>
                     <name>CPU user %</name>
-                    <type>1</type>
+                    <type>4</type>
                     <snmp_community>public</snmp_community>
                     <multiplier>0</multiplier>
                     <snmp_oid>.1.3.6.1.4.1.2021.11.9.0</snmp_oid>
@@ -702,9 +753,12 @@
                     <allowed_hosts/>
                     <units>%</units>
                     <delta>0</delta>
+                    <snmpv3_contextname/>
                     <snmpv3_securityname/>
                     <snmpv3_securitylevel>0</snmpv3_securitylevel>
+                    <snmpv3_authprotocol>0</snmpv3_authprotocol>
                     <snmpv3_authpassphrase/>
+                    <snmpv3_privprotocol>0</snmpv3_privprotocol>
                     <snmpv3_privpassphrase/>
                     <formula>1</formula>
                     <delay_flex/>
@@ -728,7 +782,7 @@
                 </item>
                 <item>
                     <name>CPU user time (raw)</name>
-                    <type>1</type>
+                    <type>4</type>
                     <snmp_community>public</snmp_community>
                     <multiplier>0</multiplier>
                     <snmp_oid>.1.3.6.1.4.1.2021.11.50.0</snmp_oid>
@@ -741,9 +795,12 @@
                     <allowed_hosts/>
                     <units/>
                     <delta>2</delta>
+                    <snmpv3_contextname/>
                     <snmpv3_securityname/>
                     <snmpv3_securitylevel>0</snmpv3_securitylevel>
+                    <snmpv3_authprotocol>0</snmpv3_authprotocol>
                     <snmpv3_authpassphrase/>
+                    <snmpv3_privprotocol>0</snmpv3_privprotocol>
                     <snmpv3_privpassphrase/>
                     <formula>1</formula>
                     <delay_flex/>
@@ -767,7 +824,7 @@
                 </item>
                 <item>
                     <name>CPU wait time (raw)</name>
-                    <type>1</type>
+                    <type>4</type>
                     <snmp_community>public</snmp_community>
                     <multiplier>0</multiplier>
                     <snmp_oid>.1.3.6.1.4.1.2021.11.54.0</snmp_oid>
@@ -780,9 +837,12 @@
                     <allowed_hosts/>
                     <units/>
                     <delta>2</delta>
+                    <snmpv3_contextname/>
                     <snmpv3_securityname/>
                     <snmpv3_securitylevel>0</snmpv3_securitylevel>
+                    <snmpv3_authprotocol>0</snmpv3_authprotocol>
                     <snmpv3_authpassphrase/>
+                    <snmpv3_privprotocol>0</snmpv3_privprotocol>
                     <snmpv3_privpassphrase/>
                     <formula>1</formula>
                     <delay_flex/>
@@ -819,9 +879,12 @@
                     <allowed_hosts/>
                     <units>updates</units>
                     <delta>0</delta>
+                    <snmpv3_contextname/>
                     <snmpv3_securityname/>
                     <snmpv3_securitylevel>0</snmpv3_securitylevel>
+                    <snmpv3_authprotocol>0</snmpv3_authprotocol>
                     <snmpv3_authpassphrase/>
+                    <snmpv3_privprotocol>0</snmpv3_privprotocol>
                     <snmpv3_privpassphrase/>
                     <formula>1</formula>
                     <delay_flex/>
@@ -858,9 +921,12 @@
                     <allowed_hosts/>
                     <units>updates</units>
                     <delta>0</delta>
+                    <snmpv3_contextname/>
                     <snmpv3_securityname/>
                     <snmpv3_securitylevel>0</snmpv3_securitylevel>
+                    <snmpv3_authprotocol>0</snmpv3_authprotocol>
                     <snmpv3_authpassphrase/>
+                    <snmpv3_privprotocol>0</snmpv3_privprotocol>
                     <snmpv3_privpassphrase/>
                     <formula>1</formula>
                     <delay_flex/>
@@ -897,9 +963,12 @@
                     <allowed_hosts/>
                     <units>updates</units>
                     <delta>0</delta>
+                    <snmpv3_contextname/>
                     <snmpv3_securityname/>
                     <snmpv3_securitylevel>0</snmpv3_securitylevel>
+                    <snmpv3_authprotocol>0</snmpv3_authprotocol>
                     <snmpv3_authpassphrase/>
+                    <snmpv3_privprotocol>0</snmpv3_privprotocol>
                     <snmpv3_privpassphrase/>
                     <formula>1</formula>
                     <delay_flex/>
@@ -936,9 +1005,12 @@
                     <allowed_hosts/>
                     <units>updates</units>
                     <delta>0</delta>
+                    <snmpv3_contextname/>
                     <snmpv3_securityname/>
                     <snmpv3_securitylevel>0</snmpv3_securitylevel>
+                    <snmpv3_authprotocol>0</snmpv3_authprotocol>
                     <snmpv3_authpassphrase/>
+                    <snmpv3_privprotocol>0</snmpv3_privprotocol>
                     <snmpv3_privpassphrase/>
                     <formula>1</formula>
                     <delay_flex/>
@@ -962,7 +1034,7 @@
                 </item>
                 <item>
                     <name>DHCP Service (Global)</name>
-                    <type>1</type>
+                    <type>4</type>
                     <snmp_community>public</snmp_community>
                     <multiplier>0</multiplier>
                     <snmp_oid>.1.3.6.1.4.1.7779.3.1.1.2.1.9.1.2.1</snmp_oid>
@@ -975,9 +1047,12 @@
                     <allowed_hosts/>
                     <units/>
                     <delta>0</delta>
+                    <snmpv3_contextname/>
                     <snmpv3_securityname/>
                     <snmpv3_securitylevel>0</snmpv3_securitylevel>
+                    <snmpv3_authprotocol>0</snmpv3_authprotocol>
                     <snmpv3_authpassphrase/>
+                    <snmpv3_privprotocol>0</snmpv3_privprotocol>
                     <snmpv3_privpassphrase/>
                     <formula>1</formula>
                     <delay_flex/>
@@ -1008,7 +1083,7 @@
                 </item>
                 <item>
                     <name>DHCP Total Acks</name>
-                    <type>1</type>
+                    <type>4</type>
                     <snmp_community>public</snmp_community>
                     <multiplier>0</multiplier>
                     <snmp_oid>.1.3.6.1.4.1.7779.3.1.1.4.1.3.5.0</snmp_oid>
@@ -1020,10 +1095,13 @@
                     <value_type>3</value_type>
                     <allowed_hosts/>
                     <units/>
-                    <delta>0</delta>
+                    <delta>2</delta>
+                    <snmpv3_contextname/>
                     <snmpv3_securityname/>
                     <snmpv3_securitylevel>0</snmpv3_securitylevel>
+                    <snmpv3_authprotocol>0</snmpv3_authprotocol>
                     <snmpv3_authpassphrase/>
+                    <snmpv3_privprotocol>0</snmpv3_privprotocol>
                     <snmpv3_privpassphrase/>
                     <formula>1</formula>
                     <delay_flex/>
@@ -1047,7 +1125,7 @@
                 </item>
                 <item>
                     <name>DHCP Total Declines</name>
-                    <type>1</type>
+                    <type>4</type>
                     <snmp_community>public</snmp_community>
                     <multiplier>0</multiplier>
                     <snmp_oid>.1.3.6.1.4.1.7779.3.1.1.4.1.3.7.0</snmp_oid>
@@ -1059,10 +1137,13 @@
                     <value_type>3</value_type>
                     <allowed_hosts/>
                     <units/>
-                    <delta>0</delta>
+                    <delta>2</delta>
+                    <snmpv3_contextname/>
                     <snmpv3_securityname/>
                     <snmpv3_securitylevel>0</snmpv3_securitylevel>
+                    <snmpv3_authprotocol>0</snmpv3_authprotocol>
                     <snmpv3_authpassphrase/>
+                    <snmpv3_privprotocol>0</snmpv3_privprotocol>
                     <snmpv3_privpassphrase/>
                     <formula>1</formula>
                     <delay_flex/>
@@ -1086,7 +1167,7 @@
                 </item>
                 <item>
                     <name>DHCP Total Discovers</name>
-                    <type>1</type>
+                    <type>4</type>
                     <snmp_community>public</snmp_community>
                     <multiplier>0</multiplier>
                     <snmp_oid>.1.3.6.1.4.1.7779.3.1.1.4.1.3.1.0</snmp_oid>
@@ -1098,10 +1179,13 @@
                     <value_type>3</value_type>
                     <allowed_hosts/>
                     <units/>
-                    <delta>0</delta>
+                    <delta>2</delta>
+                    <snmpv3_contextname/>
                     <snmpv3_securityname/>
                     <snmpv3_securitylevel>0</snmpv3_securitylevel>
+                    <snmpv3_authprotocol>0</snmpv3_authprotocol>
                     <snmpv3_authpassphrase/>
+                    <snmpv3_privprotocol>0</snmpv3_privprotocol>
                     <snmpv3_privpassphrase/>
                     <formula>1</formula>
                     <delay_flex/>
@@ -1125,7 +1209,7 @@
                 </item>
                 <item>
                     <name>DHCP Total Informs</name>
-                    <type>1</type>
+                    <type>4</type>
                     <snmp_community>public</snmp_community>
                     <multiplier>0</multiplier>
                     <snmp_oid>.1.3.6.1.4.1.7779.3.1.1.4.1.3.8.0</snmp_oid>
@@ -1137,10 +1221,13 @@
                     <value_type>3</value_type>
                     <allowed_hosts/>
                     <units/>
-                    <delta>0</delta>
+                    <delta>2</delta>
+                    <snmpv3_contextname/>
                     <snmpv3_securityname/>
                     <snmpv3_securitylevel>0</snmpv3_securitylevel>
+                    <snmpv3_authprotocol>0</snmpv3_authprotocol>
                     <snmpv3_authpassphrase/>
+                    <snmpv3_privprotocol>0</snmpv3_privprotocol>
                     <snmpv3_privpassphrase/>
                     <formula>1</formula>
                     <delay_flex/>
@@ -1164,7 +1251,7 @@
                 </item>
                 <item>
                     <name>DHCP Total Nacks</name>
-                    <type>1</type>
+                    <type>4</type>
                     <snmp_community>public</snmp_community>
                     <multiplier>0</multiplier>
                     <snmp_oid>.1.3.6.1.4.1.7779.3.1.1.4.1.3.6.0</snmp_oid>
@@ -1176,10 +1263,13 @@
                     <value_type>3</value_type>
                     <allowed_hosts/>
                     <units/>
-                    <delta>0</delta>
+                    <delta>2</delta>
+                    <snmpv3_contextname/>
                     <snmpv3_securityname/>
                     <snmpv3_securitylevel>0</snmpv3_securitylevel>
+                    <snmpv3_authprotocol>0</snmpv3_authprotocol>
                     <snmpv3_authpassphrase/>
+                    <snmpv3_privprotocol>0</snmpv3_privprotocol>
                     <snmpv3_privpassphrase/>
                     <formula>1</formula>
                     <delay_flex/>
@@ -1203,7 +1293,7 @@
                 </item>
                 <item>
                     <name>DHCP Total Offers</name>
-                    <type>1</type>
+                    <type>4</type>
                     <snmp_community>public</snmp_community>
                     <multiplier>0</multiplier>
                     <snmp_oid>.1.3.6.1.4.1.7779.3.1.1.4.1.3.4.0</snmp_oid>
@@ -1215,10 +1305,13 @@
                     <value_type>3</value_type>
                     <allowed_hosts/>
                     <units/>
-                    <delta>0</delta>
+                    <delta>2</delta>
+                    <snmpv3_contextname/>
                     <snmpv3_securityname/>
                     <snmpv3_securitylevel>0</snmpv3_securitylevel>
+                    <snmpv3_authprotocol>0</snmpv3_authprotocol>
                     <snmpv3_authpassphrase/>
+                    <snmpv3_privprotocol>0</snmpv3_privprotocol>
                     <snmpv3_privpassphrase/>
                     <formula>1</formula>
                     <delay_flex/>
@@ -1242,7 +1335,7 @@
                 </item>
                 <item>
                     <name>DHCP Total Others</name>
-                    <type>1</type>
+                    <type>4</type>
                     <snmp_community>public</snmp_community>
                     <multiplier>0</multiplier>
                     <snmp_oid>.1.3.6.1.4.1.7779.3.1.1.4.1.3.9.0</snmp_oid>
@@ -1254,10 +1347,13 @@
                     <value_type>3</value_type>
                     <allowed_hosts/>
                     <units/>
-                    <delta>0</delta>
+                    <delta>2</delta>
+                    <snmpv3_contextname/>
                     <snmpv3_securityname/>
                     <snmpv3_securitylevel>0</snmpv3_securitylevel>
+                    <snmpv3_authprotocol>0</snmpv3_authprotocol>
                     <snmpv3_authpassphrase/>
+                    <snmpv3_privprotocol>0</snmpv3_privprotocol>
                     <snmpv3_privpassphrase/>
                     <formula>1</formula>
                     <delay_flex/>
@@ -1281,7 +1377,7 @@
                 </item>
                 <item>
                     <name>DHCP Total Releases</name>
-                    <type>1</type>
+                    <type>4</type>
                     <snmp_community>public</snmp_community>
                     <multiplier>0</multiplier>
                     <snmp_oid>.1.3.6.1.4.1.7779.3.1.1.4.1.3.3.0</snmp_oid>
@@ -1293,10 +1389,13 @@
                     <value_type>3</value_type>
                     <allowed_hosts/>
                     <units/>
-                    <delta>0</delta>
+                    <delta>2</delta>
+                    <snmpv3_contextname/>
                     <snmpv3_securityname/>
                     <snmpv3_securitylevel>0</snmpv3_securitylevel>
+                    <snmpv3_authprotocol>0</snmpv3_authprotocol>
                     <snmpv3_authpassphrase/>
+                    <snmpv3_privprotocol>0</snmpv3_privprotocol>
                     <snmpv3_privpassphrase/>
                     <formula>1</formula>
                     <delay_flex/>
@@ -1320,7 +1419,7 @@
                 </item>
                 <item>
                     <name>DHCP Total Requests</name>
-                    <type>1</type>
+                    <type>4</type>
                     <snmp_community>public</snmp_community>
                     <multiplier>0</multiplier>
                     <snmp_oid>.1.3.6.1.4.1.7779.3.1.1.4.1.3.2.0</snmp_oid>
@@ -1332,10 +1431,13 @@
                     <value_type>3</value_type>
                     <allowed_hosts/>
                     <units/>
-                    <delta>0</delta>
+                    <delta>2</delta>
+                    <snmpv3_contextname/>
                     <snmpv3_securityname/>
                     <snmpv3_securitylevel>0</snmpv3_securitylevel>
+                    <snmpv3_authprotocol>0</snmpv3_authprotocol>
                     <snmpv3_authpassphrase/>
+                    <snmpv3_privprotocol>0</snmpv3_privprotocol>
                     <snmpv3_privpassphrase/>
                     <formula>1</formula>
                     <delay_flex/>
@@ -1359,7 +1461,7 @@
                 </item>
                 <item>
                     <name>DHCPv6 Total Advertises</name>
-                    <type>1</type>
+                    <type>4</type>
                     <snmp_community>public</snmp_community>
                     <multiplier>0</multiplier>
                     <snmp_oid>.1.3.6.1.4.1.7779.3.1.1.4.2.3.4.0</snmp_oid>
@@ -1371,10 +1473,13 @@
                     <value_type>3</value_type>
                     <allowed_hosts/>
                     <units/>
-                    <delta>0</delta>
+                    <delta>2</delta>
+                    <snmpv3_contextname/>
                     <snmpv3_securityname/>
                     <snmpv3_securitylevel>0</snmpv3_securitylevel>
+                    <snmpv3_authprotocol>0</snmpv3_authprotocol>
                     <snmpv3_authpassphrase/>
+                    <snmpv3_privprotocol>0</snmpv3_privprotocol>
                     <snmpv3_privpassphrase/>
                     <formula>1</formula>
                     <delay_flex/>
@@ -1398,7 +1503,7 @@
                 </item>
                 <item>
                     <name>DHCPv6 Total Declines</name>
-                    <type>1</type>
+                    <type>4</type>
                     <snmp_community>public</snmp_community>
                     <multiplier>0</multiplier>
                     <snmp_oid>.1.3.6.1.4.1.7779.3.1.1.4.2.3.8.0.0</snmp_oid>
@@ -1410,10 +1515,13 @@
                     <value_type>3</value_type>
                     <allowed_hosts/>
                     <units/>
-                    <delta>0</delta>
+                    <delta>2</delta>
+                    <snmpv3_contextname/>
                     <snmpv3_securityname/>
                     <snmpv3_securitylevel>0</snmpv3_securitylevel>
+                    <snmpv3_authprotocol>0</snmpv3_authprotocol>
                     <snmpv3_authpassphrase/>
+                    <snmpv3_privprotocol>0</snmpv3_privprotocol>
                     <snmpv3_privpassphrase/>
                     <formula>1</formula>
                     <delay_flex/>
@@ -1437,7 +1545,7 @@
                 </item>
                 <item>
                     <name>DHCPv6 Total Deferred Queue Size</name>
-                    <type>1</type>
+                    <type>4</type>
                     <snmp_community>public</snmp_community>
                     <multiplier>0</multiplier>
                     <snmp_oid>.1.3.6.1.4.1.7779.3.1.1.4.2.4.0</snmp_oid>
@@ -1449,10 +1557,13 @@
                     <value_type>3</value_type>
                     <allowed_hosts/>
                     <units/>
-                    <delta>0</delta>
+                    <delta>2</delta>
+                    <snmpv3_contextname/>
                     <snmpv3_securityname/>
                     <snmpv3_securitylevel>0</snmpv3_securitylevel>
+                    <snmpv3_authprotocol>0</snmpv3_authprotocol>
                     <snmpv3_authpassphrase/>
+                    <snmpv3_privprotocol>0</snmpv3_privprotocol>
                     <snmpv3_privpassphrase/>
                     <formula>1</formula>
                     <delay_flex/>
@@ -1476,7 +1587,7 @@
                 </item>
                 <item>
                     <name>DHCPv6 Total Information Requests</name>
-                    <type>1</type>
+                    <type>4</type>
                     <snmp_community>public</snmp_community>
                     <multiplier>0</multiplier>
                     <snmp_oid>.1.3.6.1.4.1.7779.3.1.1.4.2.3.9.0</snmp_oid>
@@ -1488,10 +1599,13 @@
                     <value_type>3</value_type>
                     <allowed_hosts/>
                     <units/>
-                    <delta>0</delta>
+                    <delta>2</delta>
+                    <snmpv3_contextname/>
                     <snmpv3_securityname/>
                     <snmpv3_securitylevel>0</snmpv3_securitylevel>
+                    <snmpv3_authprotocol>0</snmpv3_authprotocol>
                     <snmpv3_authpassphrase/>
+                    <snmpv3_privprotocol>0</snmpv3_privprotocol>
                     <snmpv3_privpassphrase/>
                     <formula>1</formula>
                     <delay_flex/>
@@ -1515,7 +1629,7 @@
                 </item>
                 <item>
                     <name>DHCPv6 Total Others</name>
-                    <type>1</type>
+                    <type>4</type>
                     <snmp_community>public</snmp_community>
                     <multiplier>0</multiplier>
                     <snmp_oid>.1.3.6.1.4.1.7779.3.1.1.4.2.3.10.0</snmp_oid>
@@ -1527,10 +1641,13 @@
                     <value_type>3</value_type>
                     <allowed_hosts/>
                     <units/>
-                    <delta>0</delta>
+                    <delta>2</delta>
+                    <snmpv3_contextname/>
                     <snmpv3_securityname/>
                     <snmpv3_securitylevel>0</snmpv3_securitylevel>
+                    <snmpv3_authprotocol>0</snmpv3_authprotocol>
                     <snmpv3_authpassphrase/>
+                    <snmpv3_privprotocol>0</snmpv3_privprotocol>
                     <snmpv3_privpassphrase/>
                     <formula>1</formula>
                     <delay_flex/>
@@ -1554,7 +1671,7 @@
                 </item>
                 <item>
                     <name>DHCPv6 Total Rebinds</name>
-                    <type>1</type>
+                    <type>4</type>
                     <snmp_community>public</snmp_community>
                     <multiplier>0</multiplier>
                     <snmp_oid>.1.3.6.1.4.1.7779.3.1.1.4.2.3.7.0</snmp_oid>
@@ -1566,10 +1683,13 @@
                     <value_type>3</value_type>
                     <allowed_hosts/>
                     <units/>
-                    <delta>0</delta>
+                    <delta>2</delta>
+                    <snmpv3_contextname/>
                     <snmpv3_securityname/>
                     <snmpv3_securitylevel>0</snmpv3_securitylevel>
+                    <snmpv3_authprotocol>0</snmpv3_authprotocol>
                     <snmpv3_authpassphrase/>
+                    <snmpv3_privprotocol>0</snmpv3_privprotocol>
                     <snmpv3_privpassphrase/>
                     <formula>1</formula>
                     <delay_flex/>
@@ -1593,7 +1713,7 @@
                 </item>
                 <item>
                     <name>DHCPv6 Total Releases</name>
-                    <type>1</type>
+                    <type>4</type>
                     <snmp_community>public</snmp_community>
                     <multiplier>0</multiplier>
                     <snmp_oid>.1.3.6.1.4.1.7779.3.1.1.4.2.3.3.0</snmp_oid>
@@ -1605,10 +1725,13 @@
                     <value_type>3</value_type>
                     <allowed_hosts/>
                     <units/>
-                    <delta>0</delta>
+                    <delta>2</delta>
+                    <snmpv3_contextname/>
                     <snmpv3_securityname/>
                     <snmpv3_securitylevel>0</snmpv3_securitylevel>
+                    <snmpv3_authprotocol>0</snmpv3_authprotocol>
                     <snmpv3_authpassphrase/>
+                    <snmpv3_privprotocol>0</snmpv3_privprotocol>
                     <snmpv3_privpassphrase/>
                     <formula>1</formula>
                     <delay_flex/>
@@ -1632,7 +1755,7 @@
                 </item>
                 <item>
                     <name>DHCPv6 Total Renews</name>
-                    <type>1</type>
+                    <type>4</type>
                     <snmp_community>public</snmp_community>
                     <multiplier>0</multiplier>
                     <snmp_oid>.1.3.6.1.4.1.7779.3.1.1.4.2.3.6.0</snmp_oid>
@@ -1644,10 +1767,13 @@
                     <value_type>3</value_type>
                     <allowed_hosts/>
                     <units/>
-                    <delta>0</delta>
+                    <delta>2</delta>
+                    <snmpv3_contextname/>
                     <snmpv3_securityname/>
                     <snmpv3_securitylevel>0</snmpv3_securitylevel>
+                    <snmpv3_authprotocol>0</snmpv3_authprotocol>
                     <snmpv3_authpassphrase/>
+                    <snmpv3_privprotocol>0</snmpv3_privprotocol>
                     <snmpv3_privpassphrase/>
                     <formula>1</formula>
                     <delay_flex/>
@@ -1671,7 +1797,7 @@
                 </item>
                 <item>
                     <name>DHCPv6 Total Replies</name>
-                    <type>1</type>
+                    <type>4</type>
                     <snmp_community>public</snmp_community>
                     <multiplier>0</multiplier>
                     <snmp_oid>.1.3.6.1.4.1.7779.3.1.1.4.2.3.5.0</snmp_oid>
@@ -1683,10 +1809,13 @@
                     <value_type>3</value_type>
                     <allowed_hosts/>
                     <units/>
-                    <delta>0</delta>
+                    <delta>2</delta>
+                    <snmpv3_contextname/>
                     <snmpv3_securityname/>
                     <snmpv3_securitylevel>0</snmpv3_securitylevel>
+                    <snmpv3_authprotocol>0</snmpv3_authprotocol>
                     <snmpv3_authpassphrase/>
+                    <snmpv3_privprotocol>0</snmpv3_privprotocol>
                     <snmpv3_privpassphrase/>
                     <formula>1</formula>
                     <delay_flex/>
@@ -1710,7 +1839,7 @@
                 </item>
                 <item>
                     <name>DHCPv6 Total Requests</name>
-                    <type>1</type>
+                    <type>4</type>
                     <snmp_community>public</snmp_community>
                     <multiplier>0</multiplier>
                     <snmp_oid>.1.3.6.1.4.1.7779.3.1.1.4.2.3.2.0</snmp_oid>
@@ -1722,10 +1851,13 @@
                     <value_type>3</value_type>
                     <allowed_hosts/>
                     <units/>
-                    <delta>0</delta>
+                    <delta>2</delta>
+                    <snmpv3_contextname/>
                     <snmpv3_securityname/>
                     <snmpv3_securitylevel>0</snmpv3_securitylevel>
+                    <snmpv3_authprotocol>0</snmpv3_authprotocol>
                     <snmpv3_authpassphrase/>
+                    <snmpv3_privprotocol>0</snmpv3_privprotocol>
                     <snmpv3_privpassphrase/>
                     <formula>1</formula>
                     <delay_flex/>
@@ -1748,11 +1880,53 @@
                     <valuemap/>
                 </item>
                 <item>
+                    <name>DNS Failure response (summary)</name>
+                    <type>4</type>
+                    <snmp_community>public</snmp_community>
+                    <multiplier>0</multiplier>
+                    <snmp_oid>.1.3.6.1.4.1.7779.3.1.1.3.1.1.1.7.7.115.117.109.109.97.114.121</snmp_oid>
+                    <key>infoblox.dns.summary.failure</key>
+                    <delay>300</delay>
+                    <history>7</history>
+                    <trends>365</trends>
+                    <status>0</status>
+                    <value_type>3</value_type>
+                    <allowed_hosts/>
+                    <units>responses</units>
+                    <delta>2</delta>
+                    <snmpv3_contextname/>
+                    <snmpv3_securityname/>
+                    <snmpv3_securitylevel>0</snmpv3_securitylevel>
+                    <snmpv3_authprotocol>0</snmpv3_authprotocol>
+                    <snmpv3_authpassphrase/>
+                    <snmpv3_privprotocol>0</snmpv3_privprotocol>
+                    <snmpv3_privpassphrase/>
+                    <formula>1</formula>
+                    <delay_flex/>
+                    <params/>
+                    <ipmi_sensor/>
+                    <data_type>0</data_type>
+                    <authtype>0</authtype>
+                    <username/>
+                    <password/>
+                    <publickey/>
+                    <privatekey/>
+                    <port>161</port>
+                    <description>Summary of &quot;Failure&quot; DNS responses.</description>
+                    <inventory_link>0</inventory_link>
+                    <applications>
+                        <application>
+                            <name>DNS</name>
+                        </application>
+                    </applications>
+                    <valuemap/>
+                </item>
+                <item>
                     <name>DNS hit ratio</name>
                     <type>4</type>
                     <snmp_community>public</snmp_community>
                     <multiplier>0</multiplier>
-                    <snmp_oid>.1.3.6.1.4.1.7779.3.1.1.3.1.5</snmp_oid>
+                    <snmp_oid>.1.3.6.1.4.1.7779.3.1.1.3.1.5.0</snmp_oid>
                     <key>infoblox.dnshitratio</key>
                     <delay>300</delay>
                     <history>7</history>
@@ -1760,11 +1934,14 @@
                     <status>0</status>
                     <value_type>3</value_type>
                     <allowed_hosts/>
-                    <units>queries</units>
+                    <units>%</units>
                     <delta>0</delta>
+                    <snmpv3_contextname/>
                     <snmpv3_securityname/>
                     <snmpv3_securitylevel>0</snmpv3_securitylevel>
+                    <snmpv3_authprotocol>0</snmpv3_authprotocol>
                     <snmpv3_authpassphrase/>
+                    <snmpv3_privprotocol>0</snmpv3_privprotocol>
                     <snmpv3_privpassphrase/>
                     <formula>1</formula>
                     <delay_flex/>
@@ -1779,7 +1956,91 @@
                     <port>161</port>
                     <description>From the MIB:&#13;
 IB-DNSONE-MIB::ibDnsHitRatio&#13;
-I believe this is the number of queries that hit the cache, but the admin guide omits this value, so who really knows?</description>
+I believe this is the% of queries that hit the cache, but the admin guide omits this value, so who really knows?</description>
+                    <inventory_link>0</inventory_link>
+                    <applications>
+                        <application>
+                            <name>DNS</name>
+                        </application>
+                    </applications>
+                    <valuemap/>
+                </item>
+                <item>
+                    <name>DNS NxDomain response (summary)</name>
+                    <type>4</type>
+                    <snmp_community>public</snmp_community>
+                    <multiplier>0</multiplier>
+                    <snmp_oid>.1.3.6.1.4.1.7779.3.1.1.3.1.1.1.5.7.115.117.109.109.97.114.121</snmp_oid>
+                    <key>infoblox.dns.summary.nxdomain</key>
+                    <delay>300</delay>
+                    <history>7</history>
+                    <trends>365</trends>
+                    <status>0</status>
+                    <value_type>3</value_type>
+                    <allowed_hosts/>
+                    <units>responses</units>
+                    <delta>2</delta>
+                    <snmpv3_contextname/>
+                    <snmpv3_securityname/>
+                    <snmpv3_securitylevel>0</snmpv3_securitylevel>
+                    <snmpv3_authprotocol>0</snmpv3_authprotocol>
+                    <snmpv3_authpassphrase/>
+                    <snmpv3_privprotocol>0</snmpv3_privprotocol>
+                    <snmpv3_privpassphrase/>
+                    <formula>1</formula>
+                    <delay_flex/>
+                    <params/>
+                    <ipmi_sensor/>
+                    <data_type>0</data_type>
+                    <authtype>0</authtype>
+                    <username/>
+                    <password/>
+                    <publickey/>
+                    <privatekey/>
+                    <port>161</port>
+                    <description>Summary of &quot;NxDomain&quot; DNS responses.</description>
+                    <inventory_link>0</inventory_link>
+                    <applications>
+                        <application>
+                            <name>DNS</name>
+                        </application>
+                    </applications>
+                    <valuemap/>
+                </item>
+                <item>
+                    <name>DNS NxRRset response (summary)</name>
+                    <type>4</type>
+                    <snmp_community>public</snmp_community>
+                    <multiplier>0</multiplier>
+                    <snmp_oid>.1.3.6.1.4.1.7779.3.1.1.3.1.1.1.4.7.115.117.109.109.97.114.121</snmp_oid>
+                    <key>infoblox.dns.summary.nxrrset</key>
+                    <delay>300</delay>
+                    <history>7</history>
+                    <trends>365</trends>
+                    <status>0</status>
+                    <value_type>3</value_type>
+                    <allowed_hosts/>
+                    <units>responses</units>
+                    <delta>2</delta>
+                    <snmpv3_contextname/>
+                    <snmpv3_securityname/>
+                    <snmpv3_securitylevel>0</snmpv3_securitylevel>
+                    <snmpv3_authprotocol>0</snmpv3_authprotocol>
+                    <snmpv3_authpassphrase/>
+                    <snmpv3_privprotocol>0</snmpv3_privprotocol>
+                    <snmpv3_privpassphrase/>
+                    <formula>1</formula>
+                    <delay_flex/>
+                    <params/>
+                    <ipmi_sensor/>
+                    <data_type>0</data_type>
+                    <authtype>0</authtype>
+                    <username/>
+                    <password/>
+                    <publickey/>
+                    <privatekey/>
+                    <port>161</port>
+                    <description>Summary of &quot;NxRRset&quot; DNS responses.</description>
                     <inventory_link>0</inventory_link>
                     <applications>
                         <application>
@@ -1793,7 +2054,7 @@ I believe this is the number of queries that hit the cache, but the admin guide 
                     <type>4</type>
                     <snmp_community>public</snmp_community>
                     <multiplier>0</multiplier>
-                    <snmp_oid>.1.3.6.1.4.1.7779.3.1.1.3.1.6</snmp_oid>
+                    <snmp_oid>.1.3.6.1.4.1.7779.3.1.1.3.1.6.0</snmp_oid>
                     <key>infoblox.dnsqueryrate</key>
                     <delay>300</delay>
                     <history>7</history>
@@ -1803,9 +2064,12 @@ I believe this is the number of queries that hit the cache, but the admin guide 
                     <allowed_hosts/>
                     <units>queries</units>
                     <delta>0</delta>
+                    <snmpv3_contextname/>
                     <snmpv3_securityname/>
                     <snmpv3_securitylevel>0</snmpv3_securitylevel>
+                    <snmpv3_authprotocol>0</snmpv3_authprotocol>
                     <snmpv3_authpassphrase/>
+                    <snmpv3_privprotocol>0</snmpv3_privprotocol>
                     <snmpv3_privpassphrase/>
                     <formula>1</formula>
                     <delay_flex/>
@@ -1830,8 +2094,92 @@ I believe this is the queries per second, but the admin guide omits this value, 
                     <valuemap/>
                 </item>
                 <item>
+                    <name>DNS Recursion response (summary)</name>
+                    <type>4</type>
+                    <snmp_community>public</snmp_community>
+                    <multiplier>0</multiplier>
+                    <snmp_oid>.1.3.6.1.4.1.7779.3.1.1.3.1.1.1.6.7.115.117.109.109.97.114.121</snmp_oid>
+                    <key>infoblox.dns.summary.recursion</key>
+                    <delay>300</delay>
+                    <history>7</history>
+                    <trends>365</trends>
+                    <status>0</status>
+                    <value_type>3</value_type>
+                    <allowed_hosts/>
+                    <units>responses</units>
+                    <delta>2</delta>
+                    <snmpv3_contextname/>
+                    <snmpv3_securityname/>
+                    <snmpv3_securitylevel>0</snmpv3_securitylevel>
+                    <snmpv3_authprotocol>0</snmpv3_authprotocol>
+                    <snmpv3_authpassphrase/>
+                    <snmpv3_privprotocol>0</snmpv3_privprotocol>
+                    <snmpv3_privpassphrase/>
+                    <formula>1</formula>
+                    <delay_flex/>
+                    <params/>
+                    <ipmi_sensor/>
+                    <data_type>0</data_type>
+                    <authtype>0</authtype>
+                    <username/>
+                    <password/>
+                    <publickey/>
+                    <privatekey/>
+                    <port>161</port>
+                    <description>Summary of &quot;Recursion&quot; DNS responses.</description>
+                    <inventory_link>0</inventory_link>
+                    <applications>
+                        <application>
+                            <name>DNS</name>
+                        </application>
+                    </applications>
+                    <valuemap/>
+                </item>
+                <item>
+                    <name>DNS Referral response (summary)</name>
+                    <type>4</type>
+                    <snmp_community>public</snmp_community>
+                    <multiplier>0</multiplier>
+                    <snmp_oid>.1.3.6.1.4.1.7779.3.1.1.3.1.1.1.3.7.115.117.109.109.97.114.121</snmp_oid>
+                    <key>infoblox.dns.summary.referral</key>
+                    <delay>300</delay>
+                    <history>7</history>
+                    <trends>365</trends>
+                    <status>0</status>
+                    <value_type>3</value_type>
+                    <allowed_hosts/>
+                    <units>responses</units>
+                    <delta>2</delta>
+                    <snmpv3_contextname/>
+                    <snmpv3_securityname/>
+                    <snmpv3_securitylevel>0</snmpv3_securitylevel>
+                    <snmpv3_authprotocol>0</snmpv3_authprotocol>
+                    <snmpv3_authpassphrase/>
+                    <snmpv3_privprotocol>0</snmpv3_privprotocol>
+                    <snmpv3_privpassphrase/>
+                    <formula>1</formula>
+                    <delay_flex/>
+                    <params/>
+                    <ipmi_sensor/>
+                    <data_type>0</data_type>
+                    <authtype>0</authtype>
+                    <username/>
+                    <password/>
+                    <publickey/>
+                    <privatekey/>
+                    <port>161</port>
+                    <description>Summary of &quot;Referral&quot; DNS responses.</description>
+                    <inventory_link>0</inventory_link>
+                    <applications>
+                        <application>
+                            <name>DNS</name>
+                        </application>
+                    </applications>
+                    <valuemap/>
+                </item>
+                <item>
                     <name>DNS Service (Global)</name>
-                    <type>1</type>
+                    <type>4</type>
                     <snmp_community>public</snmp_community>
                     <multiplier>0</multiplier>
                     <snmp_oid>.1.3.6.1.4.1.7779.3.1.1.2.1.9.1.2.2</snmp_oid>
@@ -1844,9 +2192,12 @@ I believe this is the queries per second, but the admin guide omits this value, 
                     <allowed_hosts/>
                     <units/>
                     <delta>0</delta>
+                    <snmpv3_contextname/>
                     <snmpv3_securityname/>
                     <snmpv3_securitylevel>0</snmpv3_securitylevel>
+                    <snmpv3_authprotocol>0</snmpv3_authprotocol>
                     <snmpv3_authpassphrase/>
+                    <snmpv3_privprotocol>0</snmpv3_privprotocol>
                     <snmpv3_privpassphrase/>
                     <formula>1</formula>
                     <delay_flex/>
@@ -1876,8 +2227,50 @@ I believe this is the queries per second, but the admin guide omits this value, 
                     <valuemap/>
                 </item>
                 <item>
+                    <name>DNS Success response (summary)</name>
+                    <type>4</type>
+                    <snmp_community>public</snmp_community>
+                    <multiplier>0</multiplier>
+                    <snmp_oid>.1.3.6.1.4.1.7779.3.1.1.3.1.1.1.2.7.115.117.109.109.97.114.121</snmp_oid>
+                    <key>infoblox.dns.summary.success</key>
+                    <delay>300</delay>
+                    <history>7</history>
+                    <trends>365</trends>
+                    <status>0</status>
+                    <value_type>3</value_type>
+                    <allowed_hosts/>
+                    <units>responses</units>
+                    <delta>2</delta>
+                    <snmpv3_contextname/>
+                    <snmpv3_securityname/>
+                    <snmpv3_securitylevel>0</snmpv3_securitylevel>
+                    <snmpv3_authprotocol>0</snmpv3_authprotocol>
+                    <snmpv3_authpassphrase/>
+                    <snmpv3_privprotocol>0</snmpv3_privprotocol>
+                    <snmpv3_privpassphrase/>
+                    <formula>1</formula>
+                    <delay_flex/>
+                    <params/>
+                    <ipmi_sensor/>
+                    <data_type>0</data_type>
+                    <authtype>0</authtype>
+                    <username/>
+                    <password/>
+                    <publickey/>
+                    <privatekey/>
+                    <port>161</port>
+                    <description>Summary of &quot;Success&quot; DNS responses.</description>
+                    <inventory_link>0</inventory_link>
+                    <applications>
+                        <application>
+                            <name>DNS</name>
+                        </application>
+                    </applications>
+                    <valuemap/>
+                </item>
+                <item>
                     <name>FTP Service (Global)</name>
-                    <type>1</type>
+                    <type>4</type>
                     <snmp_community>public</snmp_community>
                     <multiplier>0</multiplier>
                     <snmp_oid>.1.3.6.1.4.1.7779.3.1.1.2.1.9.1.2.6</snmp_oid>
@@ -1890,9 +2283,12 @@ I believe this is the queries per second, but the admin guide omits this value, 
                     <allowed_hosts/>
                     <units/>
                     <delta>0</delta>
+                    <snmpv3_contextname/>
                     <snmpv3_securityname/>
                     <snmpv3_securitylevel>0</snmpv3_securitylevel>
+                    <snmpv3_authprotocol>0</snmpv3_authprotocol>
                     <snmpv3_authpassphrase/>
+                    <snmpv3_privprotocol>0</snmpv3_privprotocol>
                     <snmpv3_privpassphrase/>
                     <formula>1</formula>
                     <delay_flex/>
@@ -1923,7 +2319,7 @@ I believe this is the queries per second, but the admin guide omits this value, 
                 </item>
                 <item>
                     <name>Grid Member Role</name>
-                    <type>1</type>
+                    <type>4</type>
                     <snmp_community>public</snmp_community>
                     <multiplier>0</multiplier>
                     <snmp_oid>.1.3.6.1.4.1.7779.3.1.1.2.1.12.0</snmp_oid>
@@ -1932,13 +2328,16 @@ I believe this is the queries per second, but the admin guide omits this value, 
                     <history>7</history>
                     <trends>365</trends>
                     <status>0</status>
-                    <value_type>4</value_type>
+                    <value_type>1</value_type>
                     <allowed_hosts/>
                     <units/>
                     <delta>0</delta>
+                    <snmpv3_contextname/>
                     <snmpv3_securityname/>
                     <snmpv3_securitylevel>0</snmpv3_securitylevel>
+                    <snmpv3_authprotocol>0</snmpv3_authprotocol>
                     <snmpv3_authpassphrase/>
+                    <snmpv3_privprotocol>0</snmpv3_privprotocol>
                     <snmpv3_privpassphrase/>
                     <formula>1</formula>
                     <delay_flex/>
@@ -1963,7 +2362,7 @@ ID Grid Member = Non-master/slave/member</description>
                 </item>
                 <item>
                     <name>HTTP File Distribution Service (Global)</name>
-                    <type>1</type>
+                    <type>4</type>
                     <snmp_community>public</snmp_community>
                     <multiplier>0</multiplier>
                     <snmp_oid>.1.3.6.1.4.1.7779.3.1.1.2.1.9.1.2.5</snmp_oid>
@@ -1976,9 +2375,12 @@ ID Grid Member = Non-master/slave/member</description>
                     <allowed_hosts/>
                     <units/>
                     <delta>0</delta>
+                    <snmpv3_contextname/>
                     <snmpv3_securityname/>
                     <snmpv3_securitylevel>0</snmpv3_securitylevel>
+                    <snmpv3_authprotocol>0</snmpv3_authprotocol>
                     <snmpv3_authpassphrase/>
+                    <snmpv3_privprotocol>0</snmpv3_privprotocol>
                     <snmpv3_privpassphrase/>
                     <formula>1</formula>
                     <delay_flex/>
@@ -2009,7 +2411,7 @@ ID Grid Member = Non-master/slave/member</description>
                 </item>
                 <item>
                     <name>NTP Service (Global)</name>
-                    <type>1</type>
+                    <type>4</type>
                     <snmp_community>public</snmp_community>
                     <multiplier>0</multiplier>
                     <snmp_oid>.1.3.6.1.4.1.7779.3.1.1.2.1.9.1.2.3</snmp_oid>
@@ -2022,9 +2424,12 @@ ID Grid Member = Non-master/slave/member</description>
                     <allowed_hosts/>
                     <units/>
                     <delta>0</delta>
+                    <snmpv3_contextname/>
                     <snmpv3_securityname/>
                     <snmpv3_securitylevel>0</snmpv3_securitylevel>
+                    <snmpv3_authprotocol>0</snmpv3_authprotocol>
                     <snmpv3_authpassphrase/>
+                    <snmpv3_privprotocol>0</snmpv3_privprotocol>
                     <snmpv3_privpassphrase/>
                     <formula>1</formula>
                     <delay_flex/>
@@ -2055,7 +2460,7 @@ ID Grid Member = Non-master/slave/member</description>
                 </item>
                 <item>
                     <name>Shared memory</name>
-                    <type>1</type>
+                    <type>4</type>
                     <snmp_community>public</snmp_community>
                     <multiplier>1</multiplier>
                     <snmp_oid>.1.3.6.1.4.1.2021.4.13.0</snmp_oid>
@@ -2068,9 +2473,12 @@ ID Grid Member = Non-master/slave/member</description>
                     <allowed_hosts/>
                     <units>B</units>
                     <delta>0</delta>
+                    <snmpv3_contextname/>
                     <snmpv3_securityname/>
                     <snmpv3_securitylevel>0</snmpv3_securitylevel>
+                    <snmpv3_authprotocol>0</snmpv3_authprotocol>
                     <snmpv3_authpassphrase/>
+                    <snmpv3_privprotocol>0</snmpv3_privprotocol>
                     <snmpv3_privpassphrase/>
                     <formula>1024</formula>
                     <delay_flex/>
@@ -2094,7 +2502,7 @@ ID Grid Member = Non-master/slave/member</description>
                 </item>
                 <item>
                     <name>Swap usage in %</name>
-                    <type>1</type>
+                    <type>4</type>
                     <snmp_community>public</snmp_community>
                     <multiplier>0</multiplier>
                     <snmp_oid>.1.3.6.1.4.1.7779.3.1.1.2.1.8.3.1.0</snmp_oid>
@@ -2107,9 +2515,12 @@ ID Grid Member = Non-master/slave/member</description>
                     <allowed_hosts/>
                     <units>%</units>
                     <delta>0</delta>
+                    <snmpv3_contextname/>
                     <snmpv3_securityname/>
                     <snmpv3_securitylevel>0</snmpv3_securitylevel>
+                    <snmpv3_authprotocol>0</snmpv3_authprotocol>
                     <snmpv3_authpassphrase/>
+                    <snmpv3_privprotocol>0</snmpv3_privprotocol>
                     <snmpv3_privpassphrase/>
                     <formula>1</formula>
                     <delay_flex/>
@@ -2132,8 +2543,50 @@ ID Grid Member = Non-master/slave/member</description>
                     <valuemap/>
                 </item>
                 <item>
+                    <name>Swap usage status</name>
+                    <type>4</type>
+                    <snmp_community>public</snmp_community>
+                    <multiplier>0</multiplier>
+                    <snmp_oid>.1.3.6.1.4.1.7779.3.1.1.2.1.10.1.2.52</snmp_oid>
+                    <key>ibNodeServiceStatus.swap-usage.0</key>
+                    <delay>300</delay>
+                    <history>7</history>
+                    <trends>365</trends>
+                    <status>0</status>
+                    <value_type>3</value_type>
+                    <allowed_hosts/>
+                    <units/>
+                    <delta>0</delta>
+                    <snmpv3_contextname/>
+                    <snmpv3_securityname/>
+                    <snmpv3_securitylevel>0</snmpv3_securitylevel>
+                    <snmpv3_authprotocol>0</snmpv3_authprotocol>
+                    <snmpv3_authpassphrase/>
+                    <snmpv3_privprotocol>0</snmpv3_privprotocol>
+                    <snmpv3_privpassphrase/>
+                    <formula>1</formula>
+                    <delay_flex/>
+                    <params/>
+                    <ipmi_sensor/>
+                    <data_type>0</data_type>
+                    <authtype>0</authtype>
+                    <username/>
+                    <password/>
+                    <publickey/>
+                    <privatekey/>
+                    <port>161</port>
+                    <description>2 = warning</description>
+                    <inventory_link>0</inventory_link>
+                    <applications>
+                        <application>
+                            <name>Memory</name>
+                        </application>
+                    </applications>
+                    <valuemap/>
+                </item>
+                <item>
                     <name>TFTP Service (Global)</name>
-                    <type>1</type>
+                    <type>4</type>
                     <snmp_community>public</snmp_community>
                     <multiplier>0</multiplier>
                     <snmp_oid>.1.3.6.1.4.1.7779.3.1.1.2.1.9.1.2.4</snmp_oid>
@@ -2146,9 +2599,12 @@ ID Grid Member = Non-master/slave/member</description>
                     <allowed_hosts/>
                     <units/>
                     <delta>0</delta>
+                    <snmpv3_contextname/>
                     <snmpv3_securityname/>
                     <snmpv3_securitylevel>0</snmpv3_securitylevel>
+                    <snmpv3_authprotocol>0</snmpv3_authprotocol>
                     <snmpv3_authpassphrase/>
+                    <snmpv3_privprotocol>0</snmpv3_privprotocol>
                     <snmpv3_privpassphrase/>
                     <formula>1</formula>
                     <delay_flex/>
@@ -2179,7 +2635,7 @@ ID Grid Member = Non-master/slave/member</description>
                 </item>
                 <item>
                     <name>Total CPU usage in %</name>
-                    <type>1</type>
+                    <type>4</type>
                     <snmp_community>public</snmp_community>
                     <multiplier>0</multiplier>
                     <snmp_oid>.1.3.6.1.4.1.7779.3.1.1.2.1.8.1.1.0</snmp_oid>
@@ -2192,9 +2648,12 @@ ID Grid Member = Non-master/slave/member</description>
                     <allowed_hosts/>
                     <units>%</units>
                     <delta>0</delta>
+                    <snmpv3_contextname/>
                     <snmpv3_securityname/>
                     <snmpv3_securitylevel>0</snmpv3_securitylevel>
+                    <snmpv3_authprotocol>0</snmpv3_authprotocol>
                     <snmpv3_authpassphrase/>
+                    <snmpv3_privprotocol>0</snmpv3_privprotocol>
                     <snmpv3_privpassphrase/>
                     <formula>1</formula>
                     <delay_flex/>
@@ -2218,7 +2677,7 @@ ID Grid Member = Non-master/slave/member</description>
                 </item>
                 <item>
                     <name>Total memory</name>
-                    <type>1</type>
+                    <type>4</type>
                     <snmp_community>public</snmp_community>
                     <multiplier>1</multiplier>
                     <snmp_oid>.1.3.6.1.4.1.2021.4.3.0</snmp_oid>
@@ -2231,9 +2690,12 @@ ID Grid Member = Non-master/slave/member</description>
                     <allowed_hosts/>
                     <units>B</units>
                     <delta>0</delta>
+                    <snmpv3_contextname/>
                     <snmpv3_securityname/>
                     <snmpv3_securitylevel>0</snmpv3_securitylevel>
+                    <snmpv3_authprotocol>0</snmpv3_authprotocol>
                     <snmpv3_authpassphrase/>
+                    <snmpv3_privprotocol>0</snmpv3_privprotocol>
                     <snmpv3_privpassphrase/>
                     <formula>1024</formula>
                     <delay_flex/>
@@ -2257,7 +2719,7 @@ ID Grid Member = Non-master/slave/member</description>
                 </item>
                 <item>
                     <name>Total Memory usage in %</name>
-                    <type>1</type>
+                    <type>4</type>
                     <snmp_community>public</snmp_community>
                     <multiplier>0</multiplier>
                     <snmp_oid>.1.3.6.1.4.1.7779.3.1.1.2.1.8.2.1.0</snmp_oid>
@@ -2270,9 +2732,12 @@ ID Grid Member = Non-master/slave/member</description>
                     <allowed_hosts/>
                     <units>%</units>
                     <delta>0</delta>
+                    <snmpv3_contextname/>
                     <snmpv3_securityname/>
                     <snmpv3_securitylevel>0</snmpv3_securitylevel>
+                    <snmpv3_authprotocol>0</snmpv3_authprotocol>
                     <snmpv3_authpassphrase/>
+                    <snmpv3_privprotocol>0</snmpv3_privprotocol>
                     <snmpv3_privpassphrase/>
                     <formula>1</formula>
                     <delay_flex/>
@@ -2296,7 +2761,7 @@ ID Grid Member = Non-master/slave/member</description>
                 </item>
                 <item>
                     <name>Total swap</name>
-                    <type>1</type>
+                    <type>4</type>
                     <snmp_community>public</snmp_community>
                     <multiplier>1</multiplier>
                     <snmp_oid>.1.3.6.1.4.1.2021.4.3.0</snmp_oid>
@@ -2309,9 +2774,12 @@ ID Grid Member = Non-master/slave/member</description>
                     <allowed_hosts/>
                     <units>B</units>
                     <delta>0</delta>
+                    <snmpv3_contextname/>
                     <snmpv3_securityname/>
                     <snmpv3_securitylevel>0</snmpv3_securitylevel>
+                    <snmpv3_authprotocol>0</snmpv3_authprotocol>
                     <snmpv3_authpassphrase/>
+                    <snmpv3_privprotocol>0</snmpv3_privprotocol>
                     <snmpv3_privpassphrase/>
                     <formula>1024</formula>
                     <delay_flex/>
@@ -2348,9 +2816,12 @@ ID Grid Member = Non-master/slave/member</description>
                     <allowed_hosts/>
                     <units>transfers</units>
                     <delta>0</delta>
+                    <snmpv3_contextname/>
                     <snmpv3_securityname/>
                     <snmpv3_securitylevel>0</snmpv3_securitylevel>
+                    <snmpv3_authprotocol>0</snmpv3_authprotocol>
                     <snmpv3_authpassphrase/>
+                    <snmpv3_privprotocol>0</snmpv3_privprotocol>
                     <snmpv3_privpassphrase/>
                     <formula>1</formula>
                     <delay_flex/>
@@ -2375,6 +2846,125 @@ ID Grid Member = Non-master/slave/member</description>
             </items>
             <discovery_rules>
                 <discovery_rule>
+                    <name>DHCP Networks</name>
+                    <type>4</type>
+                    <snmp_community>public</snmp_community>
+                    <snmp_oid>.1.3.6.1.4.1.7779.3.1.1.4.1.1.1.1</snmp_oid>
+                    <key>ibDHCPSubnetNetworkMask</key>
+                    <delay>30</delay>
+                    <status>0</status>
+                    <allowed_hosts/>
+                    <snmpv3_contextname/>
+                    <snmpv3_securityname/>
+                    <snmpv3_securitylevel>0</snmpv3_securitylevel>
+                    <snmpv3_authprotocol>0</snmpv3_authprotocol>
+                    <snmpv3_authpassphrase/>
+                    <snmpv3_privprotocol>0</snmpv3_privprotocol>
+                    <snmpv3_privpassphrase/>
+                    <delay_flex/>
+                    <params/>
+                    <ipmi_sensor/>
+                    <authtype>0</authtype>
+                    <username/>
+                    <password/>
+                    <publickey/>
+                    <privatekey/>
+                    <port>161</port>
+                    <filter>:</filter>
+                    <lifetime>30</lifetime>
+                    <description>List of DHCP networks.  Used to determine capacity, etc. about a dhcp network/scope.</description>
+                    <item_prototypes>
+                        <item_prototype>
+                            <name>DHCP Subnet Used on {#SNMPVALUE} (in percent)</name>
+                            <type>4</type>
+                            <snmp_community>public</snmp_community>
+                            <multiplier>0</multiplier>
+                            <snmp_oid>.1.3.6.1.4.1.7779.3.1.1.4.1.1.1.3.&quot;{#SNMPVALUE}&quot;</snmp_oid>
+                            <key>ibDHCPSubnetPercentUsed.[{#SNMPVALUE}]</key>
+                            <delay>30</delay>
+                            <history>90</history>
+                            <trends>365</trends>
+                            <status>0</status>
+                            <value_type>3</value_type>
+                            <allowed_hosts/>
+                            <units>%</units>
+                            <delta>0</delta>
+                            <snmpv3_contextname/>
+                            <snmpv3_securityname/>
+                            <snmpv3_securitylevel>0</snmpv3_securitylevel>
+                            <snmpv3_authprotocol>0</snmpv3_authprotocol>
+                            <snmpv3_authpassphrase/>
+                            <snmpv3_privprotocol>0</snmpv3_privprotocol>
+                            <snmpv3_privpassphrase/>
+                            <formula>1</formula>
+                            <delay_flex/>
+                            <params/>
+                            <ipmi_sensor/>
+                            <data_type>0</data_type>
+                            <authtype>0</authtype>
+                            <username/>
+                            <password/>
+                            <publickey/>
+                            <privatekey/>
+                            <port>161</port>
+                            <description/>
+                            <inventory_link>0</inventory_link>
+                            <applications>
+                                <application>
+                                    <name>DHCP</name>
+                                </application>
+                            </applications>
+                            <valuemap/>
+                        </item_prototype>
+                    </item_prototypes>
+                    <trigger_prototypes>
+                        <trigger_prototype>
+                            <expression>{Template SNMP Infoblox:ibDHCPSubnetPercentUsed.[{#SNMPVALUE}].last()}&gt;80</expression>
+                            <name>DHCP scope {#SNMPVALUE} has less than 20% free on {HOST.NAME}</name>
+                            <url/>
+                            <status>0</status>
+                            <priority>2</priority>
+                            <description>The DHCP scope has less than 20% free space in it.  IP allocation should be investigated to see if stale entries are sitting on reserved leases, if there is a need to increase the scope, or if someone has spun up an excessive amount of DHCP hosts on this network.</description>
+                            <type>0</type>
+                        </trigger_prototype>
+                    </trigger_prototypes>
+                    <graph_prototypes>
+                        <graph_prototype>
+                            <name>DHCP scope {#SNMPVALUE} usage (in percent)</name>
+                            <width>900</width>
+                            <height>200</height>
+                            <yaxismin>0.0000</yaxismin>
+                            <yaxismax>100.0000</yaxismax>
+                            <show_work_period>1</show_work_period>
+                            <show_triggers>1</show_triggers>
+                            <type>0</type>
+                            <show_legend>1</show_legend>
+                            <show_3d>0</show_3d>
+                            <percent_left>0.0000</percent_left>
+                            <percent_right>0.0000</percent_right>
+                            <ymin_type_1>1</ymin_type_1>
+                            <ymax_type_1>1</ymax_type_1>
+                            <ymin_item_1>0</ymin_item_1>
+                            <ymax_item_1>0</ymax_item_1>
+                            <graph_items>
+                                <graph_item>
+                                    <sortorder>0</sortorder>
+                                    <drawtype>0</drawtype>
+                                    <color>C80000</color>
+                                    <yaxisside>0</yaxisside>
+                                    <calc_fnc>2</calc_fnc>
+                                    <type>0</type>
+                                    <item>
+                                        <host>Template SNMP Infoblox</host>
+                                        <key>ibDHCPSubnetPercentUsed.[{#SNMPVALUE}]</key>
+                                    </item>
+                                </graph_item>
+                            </graph_items>
+                        </graph_prototype>
+                    </graph_prototypes>
+                    <host_prototypes/>
+                </discovery_rule>
+                <discovery_rule>
                     <name>DNS response discovery</name>
                     <type>4</type>
                     <snmp_community>public</snmp_community>
@@ -2383,9 +2973,12 @@ ID Grid Member = Non-master/slave/member</description>
                     <delay>300</delay>
                     <status>0</status>
                     <allowed_hosts/>
+                    <snmpv3_contextname/>
                     <snmpv3_securityname/>
                     <snmpv3_securitylevel>0</snmpv3_securitylevel>
+                    <snmpv3_authprotocol>0</snmpv3_authprotocol>
                     <snmpv3_authpassphrase/>
+                    <snmpv3_privprotocol>0</snmpv3_privprotocol>
                     <snmpv3_privpassphrase/>
                     <delay_flex/>
                     <params/>
@@ -2415,9 +3008,12 @@ ID Grid Member = Non-master/slave/member</description>
                             <allowed_hosts/>
                             <units>responses</units>
                             <delta>2</delta>
+                            <snmpv3_contextname/>
                             <snmpv3_securityname/>
                             <snmpv3_securitylevel>0</snmpv3_securitylevel>
+                            <snmpv3_authprotocol>0</snmpv3_authprotocol>
                             <snmpv3_authpassphrase/>
+                            <snmpv3_privprotocol>0</snmpv3_privprotocol>
                             <snmpv3_privpassphrase/>
                             <formula>1</formula>
                             <delay_flex/>
@@ -2454,9 +3050,12 @@ ID Grid Member = Non-master/slave/member</description>
                             <allowed_hosts/>
                             <units>responses</units>
                             <delta>2</delta>
+                            <snmpv3_contextname/>
                             <snmpv3_securityname/>
                             <snmpv3_securitylevel>0</snmpv3_securitylevel>
+                            <snmpv3_authprotocol>0</snmpv3_authprotocol>
                             <snmpv3_authpassphrase/>
+                            <snmpv3_privprotocol>0</snmpv3_privprotocol>
                             <snmpv3_privpassphrase/>
                             <formula>1</formula>
                             <delay_flex/>
@@ -2493,9 +3092,12 @@ ID Grid Member = Non-master/slave/member</description>
                             <allowed_hosts/>
                             <units>responses</units>
                             <delta>2</delta>
+                            <snmpv3_contextname/>
                             <snmpv3_securityname/>
                             <snmpv3_securitylevel>0</snmpv3_securitylevel>
+                            <snmpv3_authprotocol>0</snmpv3_authprotocol>
                             <snmpv3_authpassphrase/>
+                            <snmpv3_privprotocol>0</snmpv3_privprotocol>
                             <snmpv3_privpassphrase/>
                             <formula>1</formula>
                             <delay_flex/>
@@ -2532,9 +3134,12 @@ ID Grid Member = Non-master/slave/member</description>
                             <allowed_hosts/>
                             <units>responses</units>
                             <delta>2</delta>
+                            <snmpv3_contextname/>
                             <snmpv3_securityname/>
                             <snmpv3_securitylevel>0</snmpv3_securitylevel>
+                            <snmpv3_authprotocol>0</snmpv3_authprotocol>
                             <snmpv3_authpassphrase/>
+                            <snmpv3_privprotocol>0</snmpv3_privprotocol>
                             <snmpv3_privpassphrase/>
                             <formula>1</formula>
                             <delay_flex/>
@@ -2571,9 +3176,12 @@ ID Grid Member = Non-master/slave/member</description>
                             <allowed_hosts/>
                             <units>responses</units>
                             <delta>2</delta>
+                            <snmpv3_contextname/>
                             <snmpv3_securityname/>
                             <snmpv3_securitylevel>0</snmpv3_securitylevel>
+                            <snmpv3_authprotocol>0</snmpv3_authprotocol>
                             <snmpv3_authpassphrase/>
+                            <snmpv3_privprotocol>0</snmpv3_privprotocol>
                             <snmpv3_privpassphrase/>
                             <formula>1</formula>
                             <delay_flex/>
@@ -2610,9 +3218,12 @@ ID Grid Member = Non-master/slave/member</description>
                             <allowed_hosts/>
                             <units>responses</units>
                             <delta>2</delta>
+                            <snmpv3_contextname/>
                             <snmpv3_securityname/>
                             <snmpv3_securitylevel>0</snmpv3_securitylevel>
+                            <snmpv3_authprotocol>0</snmpv3_authprotocol>
                             <snmpv3_authpassphrase/>
+                            <snmpv3_privprotocol>0</snmpv3_privprotocol>
                             <snmpv3_privpassphrase/>
                             <formula>1</formula>
                             <delay_flex/>
@@ -2655,7 +3266,7 @@ ID Grid Member = Non-master/slave/member</description>
                             <yaxismax>100.0000</yaxismax>
                             <show_work_period>1</show_work_period>
                             <show_triggers>1</show_triggers>
-                            <type>0</type>
+                            <type>1</type>
                             <show_legend>1</show_legend>
                             <show_3d>0</show_3d>
                             <percent_left>0.0000</percent_left>
@@ -2740,6 +3351,7 @@ ID Grid Member = Non-master/slave/member</description>
                             </graph_items>
                         </graph_prototype>
                     </graph_prototypes>
+                    <host_prototypes/>
                 </discovery_rule>
                 <discovery_rule>
                     <name>Node replication discovery</name>
@@ -2750,9 +3362,12 @@ ID Grid Member = Non-master/slave/member</description>
                     <delay>300</delay>
                     <status>0</status>
                     <allowed_hosts/>
+                    <snmpv3_contextname/>
                     <snmpv3_securityname/>
                     <snmpv3_securitylevel>0</snmpv3_securitylevel>
+                    <snmpv3_authprotocol>0</snmpv3_authprotocol>
                     <snmpv3_authpassphrase/>
+                    <snmpv3_privprotocol>0</snmpv3_privprotocol>
                     <snmpv3_privpassphrase/>
                     <delay_flex/>
                     <params/>
@@ -2782,9 +3397,12 @@ ID Grid Member = Non-master/slave/member</description>
                             <allowed_hosts/>
                             <units/>
                             <delta>0</delta>
+                            <snmpv3_contextname/>
                             <snmpv3_securityname/>
                             <snmpv3_securitylevel>0</snmpv3_securitylevel>
+                            <snmpv3_authprotocol>0</snmpv3_authprotocol>
                             <snmpv3_authpassphrase/>
+                            <snmpv3_privprotocol>0</snmpv3_privprotocol>
                             <snmpv3_privpassphrase/>
                             <formula>1</formula>
                             <delay_flex/>
@@ -2821,9 +3439,12 @@ ID Grid Member = Non-master/slave/member</description>
                             <allowed_hosts/>
                             <units/>
                             <delta>0</delta>
+                            <snmpv3_contextname/>
                             <snmpv3_securityname/>
                             <snmpv3_securitylevel>0</snmpv3_securitylevel>
+                            <snmpv3_authprotocol>0</snmpv3_authprotocol>
                             <snmpv3_authpassphrase/>
+                            <snmpv3_privprotocol>0</snmpv3_privprotocol>
                             <snmpv3_privpassphrase/>
                             <formula>1</formula>
                             <delay_flex/>
@@ -2860,9 +3481,12 @@ ID Grid Member = Non-master/slave/member</description>
                             <allowed_hosts/>
                             <units>items in queue</units>
                             <delta>0</delta>
+                            <snmpv3_contextname/>
                             <snmpv3_securityname/>
                             <snmpv3_securitylevel>0</snmpv3_securitylevel>
+                            <snmpv3_authprotocol>0</snmpv3_authprotocol>
                             <snmpv3_authpassphrase/>
+                            <snmpv3_privprotocol>0</snmpv3_privprotocol>
                             <snmpv3_privpassphrase/>
                             <formula>1</formula>
                             <delay_flex/>
@@ -2899,9 +3523,12 @@ ID Grid Member = Non-master/slave/member</description>
                             <allowed_hosts/>
                             <units>items in queue</units>
                             <delta>0</delta>
+                            <snmpv3_contextname/>
                             <snmpv3_securityname/>
                             <snmpv3_securitylevel>0</snmpv3_securitylevel>
+                            <snmpv3_authprotocol>0</snmpv3_authprotocol>
                             <snmpv3_authpassphrase/>
+                            <snmpv3_privprotocol>0</snmpv3_privprotocol>
                             <snmpv3_privpassphrase/>
                             <formula>1</formula>
                             <delay_flex/>
@@ -2938,9 +3565,12 @@ ID Grid Member = Non-master/slave/member</description>
                             <allowed_hosts/>
                             <units/>
                             <delta>0</delta>
+                            <snmpv3_contextname/>
                             <snmpv3_securityname/>
                             <snmpv3_securitylevel>0</snmpv3_securitylevel>
+                            <snmpv3_authprotocol>0</snmpv3_authprotocol>
                             <snmpv3_authpassphrase/>
+                            <snmpv3_privprotocol>0</snmpv3_privprotocol>
                             <snmpv3_privpassphrase/>
                             <formula>1</formula>
                             <delay_flex/>
@@ -2978,59 +3608,12 @@ Status of replication between {#SNMPVALUE} and the grid master.</description>
                         </trigger_prototype>
                     </trigger_prototypes>
                     <graph_prototypes/>
+                    <host_prototypes/>
                 </discovery_rule>
             </discovery_rules>
             <macros/>
             <templates/>
-            <screens>
-                <screen>
-                    <name>DHCP Service Overview</name>
-                    <hsize>2</hsize>
-                    <vsize>1</vsize>
-                    <screen_items>
-                        <screen_item>
-                            <resourcetype>0</resourcetype>
-                            <width>500</width>
-                            <height>100</height>
-                            <x>0</x>
-                            <y>0</y>
-                            <colspan>1</colspan>
-                            <rowspan>1</rowspan>
-                            <elements>0</elements>
-                            <valign>0</valign>
-                            <halign>0</halign>
-                            <style>0</style>
-                            <url/>
-                            <dynamic>0</dynamic>
-                            <sort_triggers>0</sort_triggers>
-                            <resource>
-                                <name>DHCPv4 Service Overview</name>
-                                <host>Template SNMP Infoblox</host>
-                            </resource>
-                        </screen_item>
-                        <screen_item>
-                            <resourcetype>0</resourcetype>
-                            <width>500</width>
-                            <height>100</height>
-                            <x>1</x>
-                            <y>0</y>
-                            <colspan>1</colspan>
-                            <rowspan>1</rowspan>
-                            <elements>0</elements>
-                            <valign>0</valign>
-                            <halign>0</halign>
-                            <style>0</style>
-                            <url/>
-                            <dynamic>0</dynamic>
-                            <sort_triggers>0</sort_triggers>
-                            <resource>
-                                <name>DHCPv6 Service Overview</name>
-                                <host>Template SNMP Infoblox</host>
-                            </resource>
-                        </screen_item>
-                    </screen_items>
-                </screen>
-            </screens>
+            <screens/>
         </template>
     </templates>
     <triggers>
@@ -3038,7 +3621,7 @@ Status of replication between {#SNMPVALUE} and the grid master.</description>
             <expression>{Template SNMP Infoblox:ibServiceStatus.bloxtools-move.prev(0)}#1</expression>
             <name>bloxTools-move service not working on {HOST.NAME}</name>
             <url/>
-            <status>0</status>
+            <status>1</status>
             <priority>1</priority>
             <description>bloxTools-move service is not in a working state.  Infoblox returns the following values for states:&#13;
 &#13;
@@ -3055,7 +3638,7 @@ Status of replication between {#SNMPVALUE} and the grid master.</description>
             <expression>{Template SNMP Infoblox:ibServiceStatus.bloxtools.prev(0)}#1</expression>
             <name>bloxTools service not working on {HOST.NAME}</name>
             <url/>
-            <status>0</status>
+            <status>1</status>
             <priority>1</priority>
             <description>bloxTools service is not in a working state.  Infoblox returns the following values for states:&#13;
 &#13;
@@ -3606,6 +4189,98 @@ Status of replication between {#SNMPVALUE} and the grid master.</description>
                     <item>
                         <host>Template SNMP Infoblox</host>
                         <key>ibDhcpv6TotalNoOfRequests.0</key>
+                    </item>
+                </graph_item>
+            </graph_items>
+        </graph>
+        <graph>
+            <name>DNS response summary</name>
+            <width>900</width>
+            <height>200</height>
+            <yaxismin>0.0000</yaxismin>
+            <yaxismax>100.0000</yaxismax>
+            <show_work_period>1</show_work_period>
+            <show_triggers>1</show_triggers>
+            <type>0</type>
+            <show_legend>1</show_legend>
+            <show_3d>0</show_3d>
+            <percent_left>0.0000</percent_left>
+            <percent_right>0.0000</percent_right>
+            <ymin_type_1>1</ymin_type_1>
+            <ymax_type_1>0</ymax_type_1>
+            <ymin_item_1>0</ymin_item_1>
+            <ymax_item_1>0</ymax_item_1>
+            <graph_items>
+                <graph_item>
+                    <sortorder>0</sortorder>
+                    <drawtype>0</drawtype>
+                    <color>C80000</color>
+                    <yaxisside>0</yaxisside>
+                    <calc_fnc>2</calc_fnc>
+                    <type>0</type>
+                    <item>
+                        <host>Template SNMP Infoblox</host>
+                        <key>infoblox.dns.summary.failure</key>
+                    </item>
+                </graph_item>
+                <graph_item>
+                    <sortorder>1</sortorder>
+                    <drawtype>0</drawtype>
+                    <color>00C8C8</color>
+                    <yaxisside>0</yaxisside>
+                    <calc_fnc>2</calc_fnc>
+                    <type>0</type>
+                    <item>
+                        <host>Template SNMP Infoblox</host>
+                        <key>infoblox.dns.summary.nxdomain</key>
+                    </item>
+                </graph_item>
+                <graph_item>
+                    <sortorder>2</sortorder>
+                    <drawtype>0</drawtype>
+                    <color>0000C8</color>
+                    <yaxisside>0</yaxisside>
+                    <calc_fnc>2</calc_fnc>
+                    <type>0</type>
+                    <item>
+                        <host>Template SNMP Infoblox</host>
+                        <key>infoblox.dns.summary.recursion</key>
+                    </item>
+                </graph_item>
+                <graph_item>
+                    <sortorder>3</sortorder>
+                    <drawtype>0</drawtype>
+                    <color>C800C8</color>
+                    <yaxisside>0</yaxisside>
+                    <calc_fnc>2</calc_fnc>
+                    <type>0</type>
+                    <item>
+                        <host>Template SNMP Infoblox</host>
+                        <key>infoblox.dns.summary.referral</key>
+                    </item>
+                </graph_item>
+                <graph_item>
+                    <sortorder>4</sortorder>
+                    <drawtype>0</drawtype>
+                    <color>00C800</color>
+                    <yaxisside>0</yaxisside>
+                    <calc_fnc>2</calc_fnc>
+                    <type>0</type>
+                    <item>
+                        <host>Template SNMP Infoblox</host>
+                        <key>infoblox.dns.summary.success</key>
+                    </item>
+                </graph_item>
+                <graph_item>
+                    <sortorder>5</sortorder>
+                    <drawtype>0</drawtype>
+                    <color>C8C800</color>
+                    <yaxisside>0</yaxisside>
+                    <calc_fnc>2</calc_fnc>
+                    <type>0</type>
+                    <item>
+                        <host>Template SNMP Infoblox</host>
+                        <key>infoblox.dns.summary.nxrrset</key>
                     </item>
                 </graph_item>
             </graph_items>
