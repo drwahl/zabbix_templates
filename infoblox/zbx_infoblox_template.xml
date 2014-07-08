@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <zabbix_export>
     <version>2.0</version>
-    <date>2014-04-17T14:56:02Z</date>
+    <date>2014-07-08T13:42:58Z</date>
     <groups>
         <group>
             <name>Templates</name>
@@ -2062,7 +2062,7 @@ I believe this is the% of queries that hit the cache, but the admin guide omits 
                     <status>0</status>
                     <value_type>3</value_type>
                     <allowed_hosts/>
-                    <units>queries</units>
+                    <units>q/s</units>
                     <delta>0</delta>
                     <snmpv3_contextname/>
                     <snmpv3_securityname/>
@@ -3259,7 +3259,7 @@ ID Grid Member = Non-master/slave/member</description>
                     </trigger_prototypes>
                     <graph_prototypes>
                         <graph_prototype>
-                            <name>DNS repsonses by type</name>
+                            <name>DNS repsonses by type ({#SNMPVALUE})</name>
                             <width>900</width>
                             <height>200</height>
                             <yaxismin>0.0000</yaxismin>
@@ -3933,7 +3933,7 @@ Status of replication between {#SNMPVALUE} and the grid master.</description>
             <yaxismax>0.0000</yaxismax>
             <show_work_period>1</show_work_period>
             <show_triggers>1</show_triggers>
-            <type>0</type>
+            <type>1</type>
             <show_legend>1</show_legend>
             <show_3d>0</show_3d>
             <percent_left>0.0000</percent_left>
@@ -4201,7 +4201,7 @@ Status of replication between {#SNMPVALUE} and the grid master.</description>
             <yaxismax>100.0000</yaxismax>
             <show_work_period>1</show_work_period>
             <show_triggers>1</show_triggers>
-            <type>0</type>
+            <type>1</type>
             <show_legend>1</show_legend>
             <show_3d>0</show_3d>
             <percent_left>0.0000</percent_left>
